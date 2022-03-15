@@ -1,0 +1,19 @@
+<svg id="LOGO" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5861.12 2457.39">
+     <defs>
+     <style>.cls-1,.cls-3{fill:#132b47;}.cls-1,.cls-5{stroke:#001327;stroke-miterlimit:10;}.cls-1{stroke-width:10px;}.cls-2{fill:#fff;}.cls-4{fill:#bb4e9d;}.cls-5{fill:none;stroke-width:67px;}.cls-6{font-size:800px;fill:#231f20;font-family:AgencyFB-Reg, Agency FB;}</style>
+        </defs>
+        <polygon id="fondbleu" class="cls-1" points="2752.36 275.79 1903.74 759.87 1923.96 1787.74 2798.75 2240.06 3683.01 1725.55 3662.79 759.87 2752.36 275.79"/>
+        <rect id="barre" class="cls-2" x="2650.6" y="316.88" width="209.43" height="1908.51"/>
+        <rect id="jhaut" class="cls-2" x="2141.91" y="259.94" width="559.52" height="333"/>
+        <rect id="croix2" class="cls-2" x="2767.12" y="1129.05" width="889.12" height="260.53"/>
+        <rect id="croix" class="cls-2" x="1908.31" y="1129.05" width="963.53" height="260.53"/>
+        <rect id="ftraitdeux" class="cls-2" x="2860.03" y="1593.34" width="814.43" height="261.95"/>
+        <rect id="jcourbe" class="cls-2" x="823.31" y="-808.15" width="130.73" height="396.51" transform="translate(1141.11 1822.66) rotate(-1.4)"/>
+        <polygon id="delimitation" class="cls-3" points="2620.08 1426.5 2648.3 1448.52 2913.32 1116.19 2885.09 1094.17 2620.08 1426.5"/>
+        <polygon class="cls-4" points="2743.23 263.92 2025.08 674.36 1871.15 410.44 2589.3 0 2743.23 263.92"/>
+        <polygon class="cls-4" points="3742.87 1828.59 3557.85 1934.33 3525.66 1879.14 3710.68 1773.39 3742.87 1828.59"/>
+        <polygon id="hexagone" class="cls-5" points="2752.36 297.21 1903.74 781.98 1923.96 1811.31 2798.75 2264.27 3683.01 1749.03 3662.79 781.98 2752.36 297.21"/>
+        <text class="cls-6" transform="translate(0 1578.32)">JULIEN</text>
+        <text class="cls-6" transform="translate(3847.38 1578.32)">FERRÉ</text>
+        <polygon id="descente" class="cls-2" points="3108.66 2206.16 3141.34 2263.35 2803.3 2457.39 2471.38 2284.8 2502.02 2230.67 2797.46 2382.84 3108.66 2206.16"/>
+</svg>
