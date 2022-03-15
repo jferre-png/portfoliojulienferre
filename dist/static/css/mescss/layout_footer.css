@@ -1,0 +1,32 @@
+footer {
+    background-color: #D0D0D0;
+    height: 70px;
+}
+
+footer p {
+    color: #0C000B;
+    position: relative;
+    display: inline;
+}
+
+footer .rights {
+    margin-left: 900px;
+}
+
+@media screen and (max-width: 1000px) and (max-width: 1000px) {
+    footer {
+        background-color: #D0D0D0;
+        height: 50px;
+    }
+
+    footer p {
+        color: #0C000B;
+        position: relative;
+        display: inline;
+        font-size: 10px;
+    }
+
+    footer .rights {
+        margin-left: 3px;
+    }
+}
