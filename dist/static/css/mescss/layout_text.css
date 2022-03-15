@@ -1,0 +1,145 @@
+
+#typing {
+    width: 0ch;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+    margin-left: 200px;
+}
+
+#typing2 {
+    width: 0ch;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing2 3s steps(22) 5s infinite alternate;
+    margin-left: 750px;
+}
+
+#typing3 {
+    width: 0ch;
+    color: white;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing3 5s steps(22) 8s infinite alternate;
+    margin-left: 600px;
+}
+
+#typing span, #typing2 span, #typing3 span{
+    color:#038BDB;}
+
+#crow {
+    float: left;
+    color: white;
+    font-family: consolas;
+    font-weight:bold;
+    font-size: 60px;
+    animation: crow 0.5s linear 0s infinite;
+}
+
+#crow2 {
+    float: left;
+    color: white;
+    font-family: consolas;
+    font-weight:bold;
+    font-size: 20px;
+    animation: crow 0.5s linear 0s infinite;
+}
+
+#crow3 {
+    float: left;
+    color: white;
+    font-family: consolas;
+    font-weight:bold;
+    font-size: 50px;
+    animation: crow 0.5s linear 0s infinite;
+}
+
+
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 37ch;
+    }
+}
+
+@keyframes typing2 {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 13ch;
+    }
+}
+
+@keyframes typing3 {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 17ch;
+    }
+}
+
+
+
+@keyframes crow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes crow2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes crow3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}
