@@ -1,0 +1,269 @@
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 200px) and (max-height: 300px) {
+    svg {
+        width: 5%;
+        height: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) and (max-height: 700px) {
+    svg {
+        width: 35%;
+        height: 35%;
+    }
+}
+
+
+@keyframes heigh {
+    0% {height: 0}
+    100% {height: 600px}
+}
+@keyframes heightening {
+    0% {height: 0}
+    100% {height: 1880px}
+}
+
+@keyframes wi {
+    0% {width: 0;}
+    100% {width: 780px}
+}
+
+@keyframes wi2 {
+    0% {width: 0;}
+    100% {width: 650px}
+}
+
+@keyframes wid {
+    0% {width: 0;}
+    100% {width: 900px}
+}
+
+@keyframes width {
+    0% {width: 0;
+        transform: translateX(800px);
+    }
+    100% {width: 800px;
+        transform: translateX(0);
+    }
+}
+
+@keyframes height {
+    0% {height: 0;
+        transform: translateY(100px);
+    }
+    100% {height: 290px;
+        transform: translateY(0);
+    }
+}
+
+@keyframes widt {
+    0% {width: 0;
+        transform: translateX(500px);
+    }
+    100% {width: 550px;
+        transform: translateX(0);
+    }
+}
+
+@keyframes widt1 {
+    0% {width: 0;
+        transform: translateX(300px);
+    }
+    100% {width: 320px;
+        transform: translateX(0);
+    }
+}
+
+@keyframes widt2 {
+    0% {width: 0;
+        transform: translateX(400px);
+    }
+    100% {width: 300px;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bougegauch {
+    from { transform: translateX(-500px);
+    }
+    to {transform: translateX(0px);
+    }
+}
+
+@keyframes transition {
+    0% {opacity: 0}
+    100% {opacity: 100%}
+}
+@keyframes bougegauch {
+    from { transform: translate(-5000px,0);
+    }
+    to {transform: translate(1870px,230px);
+    }
+}
+@keyframes bougedroit {
+    0% {transform: translate(5000px,0)
+    }
+    100% {transform: translate(2700px,230px);
+    }
+}
+@keyframes text1 {
+    0% {visibility: visible;
+        transform: translate(1900px,1500px)
+    }
+    100% {visibility: visible ;
+        transform: translate(100px,1500px);
+    }
+}
+@keyframes text2 {
+    0% {visibility: visible;
+        transform: translate(1900px,1500px)
+    }
+    100% {visibility: visible;
+        transform: translate(3750px,1500px);
+    }
+}
+
+@keyframes descend {
+    0% {opacity: 0;
+        transform: translate(0,-300px)
+    }
+    10% {opacity: 50%;
+        transform: translate(0,50px)
+    }
+    20% {opacity: 100%;
+        transform: translate(0,0px);
+    }
+    30% {opacity: 20%;
+        transform: translate(0,-50px)
+    }
+    40% {opacity: 100%;
+        transform: translate(0,0px);
+    }
+    50% {opacity: 20%;
+        transform: translate(0,-50px)
+    }
+    60% {opacity: 100%;
+        transform: translate(0,0px);
+    }
+    70% {opacity: 20%;
+        transform: translate(0,-50px)
+    }
+    80% {opacity: 100%;
+        transform: translate(0,0px);
+    }
+    90% {opacity: 20%;
+        transform: translate(0,-50px)
+    }
+    100% {opacity: 0;
+        transform: translate(0,-300px);
+    }
+}
+
+
+#fondbleu {
+    animation: transition 4.5s linear forwards;
+}
+
+#delimitation {
+    height: 0;
+    animation:heigh 0.5s 4.5s linear forwards;
+}
+
+#barre {
+    height: 0;
+    animation: heightening 0.5s 0.5s forwards;
+}
+
+#ftraitdeux {
+    width: 0;
+    animation: wi 0.5s 1.5s linear forwards;
+}
+
+#ftraitdeux2 {
+    width: 0;
+    animation: wi2 0.25s 1.75s linear forwards;
+}
+
+#croix2 {
+    width: 0;
+    animation: wid 0.5s 1s forwards;
+}
+
+#gauche {
+    transform: translateX(-500px);
+    fill: black;
+    animation:bougegauch 1s 2s linear forwards;
+}
+
+#droite {
+    transform: translateX(500px);
+    fill: black;
+    animation:bougedroit 1s 2s linear forwards;
+}
+
+#jcourbe {
+    height: 0;
+    animation: height 1s 3s linear forwards;
+}
+
+#croix {
+    width: 0;
+    animation: width 0.3s 1.02s linear forwards;
+}
+
+#jhaut {
+    width: 0;
+    animation: widt  0.5s 1.52s linear forwards;
+}
+
+#jhaut1 {
+    width: 0;
+    animation: widt1  0.5s 1.52s linear forwards;
+}
+
+#jhaut2 {
+    width: 0;
+    animation: widt2  0.5s 1.52s linear forwards;
+}
+
+#path {
+    color: #bb4e9d;
+}
+
+#path2 {
+    transform: translate(3400px,1772px);
+}
+
+#hexagauche {
+    transform: translateX(10000px);
+    fill: none;
+    border-width: medium;
+    animation:bougegauch 1s 2s linear forwards;
+}
+
+#hexadroit {
+    transform: translateX(10500px);
+    fill: none;
+    border-width: medium;
+    animation:bougedroit 1s 2s linear forwards;
+}
+
+#julien {
+    visibility: hidden;
+    animation: text1 0.5s 4.5s linear forwards;
+}
+
+#ferre {
+    visibility: hidden;
+    animation: text2 0.5s 4.5s linear forwards;
+}
+
+#descente {
+    opacity: 0;
+    transform: translate(0px,-300px);
+    animation: descend 10s 4.5s infinite;
+}

@@ -1,0 +1,112 @@
+form {
+    margin-left: 20%;
+    margin-top: 10%;
+    position: relative;
+    width: 80%;
+}
+
+form > * {
+    font-family: "Roboto";
+    font-size: 1rem;
+    color: #0C000B;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 100px;
+}
+
+form > input:not(input[type="submit"]) {
+    width: 60rem;
+    height: 15px;
+}
+
+form > .btn {
+    text-align: center;
+    background-color: #038BDB;
+    font-size: 2rem;
+    margin: 8rem 0 5rem 25rem;
+    padding: 1.5rem .7rem;
+    width: 15rem;
+    color: black;
+}
+
+form > input[type="text"] {
+  margin-left: 90px;
+
+}
+
+label {color: #D0D0D0;
+}
+
+form > .btn:hover {
+    background-color: #86117F;
+
+}
+
+.btn {
+    width: 100px;
+}
+
+i {
+    margin-left: 6rem;
+    transition: all .2s;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+    line-height: 1;
+    font-size: 2rem;
+    color: #D0D0D0;
+}
+
+i:hover {
+  color: #038BDB;
+}
+
+.main {
+    width: 100%;
+}
+
+form h2 {
+    margin-left: 300px;
+}
+
+.social {
+    float: left;
+    display: block;
+    width: 20%;
+    position: relative;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    form, .btn {
+        width: 100%;
+        margin-top: 0;
+        margin-right: 800px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    form, .btn {
+        width: 100%;
+        margin-top: 0;
+        margin-right: 1000px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form, .btn {
+        width: 100%;
+        margin-top: 0;
+        margin-right: 1100px;
+    }
+}
+
+#message {
+width: 93%;
+font-size: 95%;
+}
+
+#subject, #email, #name {
+  width: 93%;
+}

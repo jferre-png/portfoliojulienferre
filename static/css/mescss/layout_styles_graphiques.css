@@ -1,0 +1,1422 @@
+html {
+    --res: calc(0.01*10vmin);
+}
+
+nav li {
+scroll-behavior: smooth;
+}
+
+body @font-face {
+    font-family: 'Roboto';
+}
+
+@media screen and (min-width: 10px) and (min-height: 10px) {
+
+    body {
+        width: 1518.2px;
+        height: 13350px;
+    }
+}
+
+
+body h1 {
+    font-family: "Roboto";
+    color: #f1eded;
+    font-weight: bold;
+    font-size: 350%;
+    margin-left: 50px;
+}
+
+body p, h2, h3, h4, .left {
+    margin-left: 50px;
+}
+
+body span {
+    color: #298af7;
+}
+
+.french {
+    font-size: 40%;
+    margin-left: 300px;
+}
+
+body h2 {
+    font-family: "Roboto";
+    color: #f1eded;
+    font-weight: bold;
+    font-size: 270%;
+}
+
+body h3 {
+    font-family: "Roboto";
+    color: #f1eded;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.quote {font-family: "Roboto"; color: #f1eded;}
+
+.quote q {
+    font-style: italic;
+}
+
+.quote p {
+    font-family: "Roboto";
+    color: #f1eded;
+    margin-left: 750px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.presentation {
+    margin-left: 400px;
+}
+
+video {
+    margin-left: 370px;
+}
+
+body p{
+    font-family: "Roboto";
+    color: #f1eded;
+    margin-right: 40px;
+}
+
+h4 {
+    font-family: "Roboto";
+    color: #f1eded;
+}
+
+
+.outils {
+    position: relative;
+    float: left;
+}
+
+.logo img {
+    white-space: nowrap;
+    float: left;
+    position: relative;
+    width: 40px;
+    margin-left: 18px;
+}
+
+.barre {
+    position: relative;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #298af7;
+    float: left;
+    margin-top: 25px;
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+}
+
+.skill {
+    background-color: #298af7;
+    font-family: "Roboto";
+    color: black;
+    font-weight: bold;
+    padding: 1%;
+    text-align: right;
+    font-size: 10px;
+}
+
+.curious {
+    position: relative;
+    width: 101.5%;
+    transition: width 1s, transform 1s;
+    -webkit-transition: width 1s, -webkit-transform 1s;
+}
+
+.curious:hover {
+    width: 75%;
+    transform: translateX(0);
+}
+
+.organized {
+    position: relative;
+    width: 101.5%;
+    transition: width 1s, transform 1s;
+    -webkit-transition: width 1s, -webkit-transform 1s;
+}
+
+.organized:hover {
+    width: 85%;
+    transform: translateX(0);
+}
+
+.serious {
+    position: relative;
+    width: 101.5%;
+    transition: width 1s, transform 1s;
+    -webkit-transition: width 1s, -webkit-transform 1s;
+}
+
+.serious:hover {
+    width: 85%;
+    transform: translateX(0);
+}
+
+.creative {
+    position: relative;
+    width: 101.5%;
+    transition: width 1s, transform 1s;
+    -webkit-transition: width 1s, -webkit-transform 1s;
+}
+
+.creative:hover {
+    width: 70%;
+    transform: translateX(0);
+}
+
+.teamworking {
+    position: relative;
+    width: 101.5%;
+    transition: width 1s, transform 1s;
+    -webkit-transition: width 1s, -webkit-transform 1s;
+}
+
+.teamworking:hover {
+    width: 70%;
+    transform: translateX(0);
+}
+
+.work img {
+    width: 250px;
+    margin: 20px;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #707070;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #038BDB;
+}
+
+.blue {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
+
+.exemples {
+    width: 100%;
+}
+
+.illustration {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image1 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image1:hover{
+    opacity: 0;
+}
+
+.texte1{
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+
+.illustration2 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    right: -30px;
+}
+
+.image2  {
+    width: 250px;
+    position: relative;
+    z-index: 8;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image2:hover{
+    opacity: 0;
+}
+
+.texte2 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 7;
+}
+
+.illustration3 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    right: -80px;
+}
+
+.image3  {
+    width: 250px;
+    position: relative;
+    z-index: 6;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image3:hover{
+    opacity: 0;
+}
+
+.texte3 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 5;
+}
+
+.illustration4 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1400px;
+    left: 1100px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+}
+
+.image4 {
+    width: 250px;
+    position: relative;
+    z-index: 4;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image4:hover{
+    opacity: 0;
+}
+
+.texte4 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 54%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 3;
+}
+
+.illustration6 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image6 {
+    width: 250px;
+    position: relative;
+    z-index: 8;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image6:hover{
+    opacity: 0;
+}
+
+.texte6 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 7;
+}
+
+.illustration7 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image7  {
+    width: 250px;
+    position: relative;
+    z-index: 6;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image7:hover{
+    opacity: 0;
+}
+
+.texte7 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 5;
+}
+
+.illustration8 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1400px;
+    left: 1130px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+}
+
+.image8 {
+    width: 250px;
+    position: relative;
+    z-index: 4;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image8:hover{
+    opacity: 0;
+}
+
+.texte8 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 55%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 3;
+}
+
+.illustration9 {
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    top: -500px;
+}
+
+.image9 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image9:hover{
+    opacity: 0;
+}
+
+.texte9{
+    position: absolute;
+    text-align: left;
+    width: 95%;
+    height: 74%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustrationdefi {
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    top: -500px;
+}
+
+.imagedefi {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.imagedefi:hover{
+    opacity: 0;
+}
+
+.textedefi{
+    position: absolute;
+    text-align: left;
+    width: 95%;
+    height: 74%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration10 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image10 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image10:hover{
+    opacity: 0;
+}
+
+.texte10 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration11 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image11 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image11:hover{
+    opacity: 0;
+}
+
+.texte11 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration12 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image12 {
+    width: 250px;
+    position: relative;
+    z-index: 8;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image12:hover{
+    opacity: 0;
+}
+
+.texte12 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 7;
+}
+
+
+.illustration13 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    right: 5px;
+}
+
+.image13  {
+    width: 250px;
+    position: relative;
+    z-index: 6;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image13:hover{
+    opacity: 0;
+}
+
+.texte13 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 5;
+}
+
+.illustration14 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1400px;
+    left: 1130px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+}
+
+.image14 {
+    width: 250px;
+    position: relative;
+    z-index: 4;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image14:hover{
+    opacity: 0;
+}
+
+.texte14 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 55%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 3;
+}
+
+.illustration15 {
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    top: 800px;
+    right: 1135px;
+}
+
+.image15 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image15:hover{
+    opacity: 0;
+}
+
+.texte15{
+    position: absolute;
+    text-align: left;
+    width: 95%;
+    height: 74%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration16 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image16 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image16:hover{
+    opacity: 0;
+}
+
+.texte16 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration17 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image17 {
+    width: 250px;
+    position: relative;
+    z-index: 8;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image17:hover{
+    opacity: 0;
+}
+
+.texte17 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 7;
+}
+
+
+.illustration18 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    right: 5px;
+}
+
+.image18  {
+    width: 250px;
+    position: relative;
+    z-index: 6;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image18:hover{
+    opacity: 0;
+}
+
+.texte18 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 5;
+}
+
+.illustration19 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1400px;
+    left: 1130px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+}
+
+.image19 {
+    width: 250px;
+    position: relative;
+    z-index: 4;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image19:hover{
+    opacity: 0;
+}
+
+.texte19 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 52%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 3;
+}
+
+.illustration20 {
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    top: 800px;
+    right: 1135px;
+}
+
+.image20 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image20:hover{
+    opacity: 0;
+}
+
+.texte20{
+    position: absolute;
+    text-align: left;
+    width: 95%;
+    height: 74%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration21 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image21 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image21:hover{
+    opacity: 0;
+}
+
+.texte21 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration22 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image22 {
+    width: 250px;
+    position: relative;
+    z-index: 8;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image22:hover{
+    opacity: 0;
+}
+
+.texte22 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 7;
+}
+
+
+.illustration23 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    right: 5px;
+}
+
+.image23 {
+    width: 250px;
+    position: relative;
+    z-index: 6;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image23:hover{
+    opacity: 0;
+}
+
+.texte23 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 72%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 5;
+}
+
+.illustration24 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1400px;
+    left: 1130px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+}
+
+.image24 {
+    width: 250px;
+    position: relative;
+    z-index: 4;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image24:hover{
+    opacity: 0;
+}
+
+.texte24 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 52%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 3;
+}
+
+.illustration25 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image25 {
+    width: 250px;
+    position: relative;
+    z-index: 10;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image25:hover{
+    opacity: 0;
+}
+
+.texte25 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 9;
+}
+
+.illustration26 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.image26 {
+    width: 250px;
+    position: relative;
+    z-index: 8;
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image26:hover{
+    opacity: 0;
+}
+
+.texte26 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 76%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 7;
+}
+
+.illustration27 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1000px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    right: 5px;
+}
+
+.image27 {
+    width: 250px;
+    position: relative;
+    z-index: 6;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image27:hover{
+    opacity: 0;
+}
+
+.texte27 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 72%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 5;
+}
+
+.illustration28 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25%;
+    height: 1400px;
+    left: 1130px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+}
+
+.image28 {
+    width: 250px;
+    position: relative;
+    z-index: 4;
+    transition: opacity 1s, transform 1s;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+}
+
+.image28:hover{
+    opacity: 0;
+}
+
+.texte28 {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 52%;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    top:22px;
+    z-index: 3;
+}
+
+.exemples img{
+     width: 150%;
+     height: 150%;
+ }
+
+.exemples h1  {
+    font-family: "Roboto";
+    padding: 0;
+    margin-left: 0.3em;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 300%;
+    color: #D0D0D0;
+    line-height: 1.5em;
+}
+
+.exemples p{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 100%;
+    padding: 0;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    line-height:2;
+    color: #D0D0D0;
+    font-family: Roboto;
+}
+
+.student {
+    margin-top: 500px;
+}
+
+.perso {
+    margin-top: 1000px;
+}
+
+.dev {
+    margin-top: 300px;
+    margin-right: 500px;
+}
+
+.tools {
+    margin-left: 550px;
+    color: #298af7;
+}
+
+#me1 {
+    height: 100px;
+    width: 1500px;
+    margin-top: -150px;
+}
+
+#me1 p {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#me1 .him1 {
+    position: relative;
+    margin-top: -10px;
+    left: -50px;
+    transition: left 5s, transform 5s;
+    -webkit-transition: right 0.3s, -webkit-transform 0.3s;
+}
+
+#me1:hover .him1 {
+    left: -100%;
+    transform: translateX(100%);
+}
+
+#me {
+    height: 100px;
+    width: 1500px;
+}
+
+#me .him {
+    position: relative;
+    left: -50px;
+    transition: left 0.3s, transform 0.3s;
+    -webkit-transition: right 0.3s, -webkit-transform 0.3s;
+}
+
+#me:hover .him {
+    left: -100%;
+    transform: translateX(100%);
+}
+
+#me2 {
+    height: 100px;
+    width: 1500px;
+}
+
+#me2 .him2 {
+    position: relative;
+    left: -50px;
+    transition: left 0.3s, transform 0.3s;
+    -webkit-transition: right 0.3s, -webkit-transform 0.3s;
+}
+
+#me2:hover .him2 {
+    left: -100%;
+    transform: translateX(100%);
+}
+
+#me3 {
+    height: 100px;
+    width: 1500px;
+}
+
+#me3 .him3 {
+    position: relative;
+    left: -50px;
+    transition: left 0.3s, transform 0.3s;
+    -webkit-transition: right 0.3s, -webkit-transform 0.3s;
+}
+
+#me3:hover .him3 {
+    left: -100%;
+    transform: translateX(100%);
+}
+
+#me4 {
+    height: 100px;
+    width: 1500px;
+}
+
+#me4 .him4 {
+    position: relative;
+    left: -50px;
+    transition: left 0.3s, transform 0.3s;
+    -webkit-transition: right 0.3s, -webkit-transform 0.3s;
+}
+
+#me4:hover .him4 {
+    left: -100%;
+    transform: translateX(100%);
+}
+
+#me5 {
+    height: 100px;
+    width: 1500px;
+}
+
+#me5 .him5 {
+    position: relative;
+    left: -50px;
+    transition: left 0.3s, transform 0.3s;
+    -webkit-transition: right 0.3s, -webkit-transform 0.3s;
+}
+
+#me5:hover .him5 {
+    left: -100%;
+    transform: translateX(100%);
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        /* Reducing base font size will reduce all rem sizes */
+        font-size: calc(1px + 2vw);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #aboutme img, #myprojects img, .exemples {
+        max-width: 30%;
+        height: auto;
+        font-size: calc(1px + 2vw);
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    #aboutme img, #myprojects img, .exemples {
+        margin-bottom: 50px;
+        max-width: 20%;
+        height: auto;
+        font-size: calc(1px + 2vw);
+
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #aboutme img, #myprojects img, .exemples {
+        max-width: 10%;
+        height: auto;
+        font-size: calc(1px + 2vw);
+
+    }
+}
+
+@media screen and (max-width: 200px) {
+    #aboutme img, #myprojects img, .exemples {
+        max-width: 5%;
+        height: auto;
+        font-size: calc(1px + 2vw);
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .illustration9, .illustrationdefi{
+        margin-right: 10px;
+        height: auto;
+        font-size: calc(1px + 2vw);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .illustration15 {
+        margin-left: 10px;
+        height: auto;
+        font-size: calc(1px + 2vw);
+    }
+}
+
+@media screen and (max-width: 600px) and (max-height: 700px) {
+  .typed {
+    font-size: 25%;
+    width: 10%;
+
+}}
+
+@media screen and (max-width: 600px) and (max-height: 700px) {
+  .carrousel {
+    font-size: 5%;
+
+}}
